@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>This is a test site</h1>
+      <img src="https://imgix.bustle.com/uploads/image/2019/10/11/8b4e0272-bd0f-49b3-abad-6083a544cd47-parks-recreation-swanson-way.jpg?w=960&h=540&fit=crop&crop=faces&auto=format&q=70" alt="Ron Swanson" />
     </div>
   );
 }
